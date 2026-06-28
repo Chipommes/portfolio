@@ -1,9 +1,9 @@
-# Daniel Okonkwo — WordPress Developer Portfolio
+# Tolulope Adenipo — WordPress Developer Portfolio
 
 A clean, fast portfolio site built with vanilla HTML, CSS, and JavaScript. No dependencies, no build step — just drop it on GitHub Pages and it works.
 
 ## Live demo
-👉 `https://yourusername.github.io/portfolio`
+👉 `https://chipommes.github.io/portfolio`
 
 ## What's inside
 
@@ -30,12 +30,12 @@ portfolio/
 1. Create a new repo on GitHub (e.g. `portfolio`)
 2. Push this folder to `main` branch
 3. Go to **Settings → Pages → Source → Deploy from branch → main / root**
-4. Your site will be live at `https://yourusername.github.io/portfolio`
+4. Your site will be live at `https://chipommes.github.io/portfolio`
 
 ## Customise it
 
 ### 1. Update your name and details
-In `index.html`, search for **"Daniel Okonkwo"** and replace with your name. Update the footer links (GitHub, Upwork, email).
+In `index.html`, search for **"Tolulope Adenipo"** and replace with your name. Update the footer links (GitHub, Upwork, email).
 
 ### 2. Edit the projects
 Open `js/main.js` and edit the `projects` array. Each project has:
@@ -68,7 +68,7 @@ fetch("https://formspree.io/f/YOUR_CODE", {
 ### 4. Add a real photo
 Replace the `.about-avatar` initials div in `index.html` with an `<img>` tag:
 ```html
-<img src="img/photo.jpg" alt="Daniel Okonkwo" class="about-photo" />
+<img src="img/photo.jpg" alt="Tolulope Adenipo" class="about-photo" />
 ```
 Add `.about-photo { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; }` to `style.css`.
 
