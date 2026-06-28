@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daniel Okonkwo — WordPress Developer</title>
+  <meta name="description" content="WordPress developer specialising in WooCommerce, custom themes, business sites, landing pages, and blog builds." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:ital,wght@0,500;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner container">
+      <a href="#" class="nav-logo">DO<span class="dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#work">Work</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact" class="btn-nav">Hire me</a></li>
+      </ul>
+      <button class="nav-hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="top">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow">WordPress Developer · Full-Stack</p>
+        <h1>Building WordPress sites that <em>actually</em> perform.</h1>
+        <p class="hero-sub">5+ years crafting fast, conversion-focused WordPress experiences — WooCommerce stores, corporate sites, custom themes, and everything in between.</p>
+        <div class="hero-cta">
+          <a href="#work" class="btn btn-primary">See my work</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-card">
+          <span class="stat-num">24+</span>
+          <span class="stat-label">Projects delivered</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">5 yrs</span>
+          <span class="stat-label">WordPress experience</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">100%</span>
+          <span class="stat-label">Client satisfaction</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- WORK -->
+  <section class="work" id="work">
+    <div class="container">
+      <div class="section-head">
+        <h2>Selected projects</h2>
+        <p>A range of real-world WordPress builds across industries and requirements.</p>
+      </div>
+
+      <!-- Filters -->
+      <div class="filter-row" role="tablist" aria-label="Filter projects by type">
+        <button class="filter-btn active" data-cat="all" role="tab" aria-selected="true">All</button>
+        <button class="filter-btn" data-cat="business" role="tab" aria-selected="false">Business</button>
+        <button class="filter-btn" data-cat="ecommerce" role="tab" aria-selected="false">E-commerce</button>
+        <button class="filter-btn" data-cat="blog" role="tab" aria-selected="false">Blog</button>
+        <button class="filter-btn" data-cat="landing" role="tab" aria-selected="false">Landing pages</button>
+        <button class="filter-btn" data-cat="theme" role="tab" aria-selected="false">Themes &amp; plugins</button>
+      </div>
+
+      <!-- Cards grid -->
+      <div class="projects-grid" id="projects-grid"></div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <div class="section-head">
+        <h2>What I work with</h2>
+        <p>Tools and technologies I use on every project.</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Core</h3>
+          <ul>
+            <li>WordPress (5.x / 6.x)</li>
+            <li>PHP 8 · MySQL</li>
+            <li>JavaScript (ES6+)</li>
+            <li>HTML5 · CSS3 / SCSS</li>
+            <li>REST API</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>E-commerce</h3>
+          <ul>
+            <li>WooCommerce</li>
+            <li>Paystack · Stripe</li>
+            <li>YITH plugins</li>
+            <li>Abandoned cart flows</li>
+            <li>Subscription billing</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Page builders</h3>
+          <ul>
+            <li>Elementor Pro</li>
+            <li>Divi Builder</li>
+            <li>Gutenberg / FSE</li>
+            <li>Beaver Builder</li>
+            <li>theme.json</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Plugins &amp; tools</h3>
+          <ul>
+            <li>Advanced Custom Fields</li>
+            <li>Gravity Forms · WPForms</li>
+            <li>WPML · Polylang</li>
+            <li>WP Rocket · Cloudflare</li>
+            <li>Git · GitHub Actions</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container about-inner">
+      <div class="about-img-wrap">
+        <div class="about-avatar" aria-label="Daniel Okonkwo avatar">DO</div>
+      </div>
+      <div class="about-text">
+        <p class="eyebrow">About me</p>
+        <h2>5 years, hundreds of WordPress hours</h2>
+        <p>I'm a Lagos-based WordPress developer who specialises in turning briefs into fast, accessible, and maintainable websites. I've worked with startups, law firms, fashion brands, and content creators across Africa and Europe.</p>
+        <p>I write clean PHP and JavaScript, take performance seriously (Core Web Vitals matter), and keep clients in the loop at every step. I'm available for freelance projects through Upwork and direct contracts.</p>
+        <a href="#contact" class="btn btn-primary" style="margin-top:1.5rem;">Work with me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container contact-inner">
+      <h2>Start a project</h2>
+      <p>Tell me what you're building. I'll get back to you within 24 hours.</p>
+      <form class="contact-form" name="contact" netlify-honeypot="bot-field" data-netlify="true" action="#" method="POST">
+        <input type="hidden" name="form-name" value="contact" />
+        <p hidden><label>Don't fill this out: <input name="bot-field" /></label></p>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" placeholder="Ada Lovelace" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" placeholder="ada@example.com" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="project">Project type</label>
+          <select id="project" name="project">
+            <option value="">Select a type</option>
+            <option>Business / corporate site</option>
+            <option>WooCommerce store</option>
+            <option>Blog or content site</option>
+            <option>Landing page</option>
+            <option>Custom theme or plugin</option>
+            <option>Something else</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Tell me about it</label>
+          <textarea id="message" name="message" rows="5" placeholder="Rough brief, budget, timeline — whatever you've got."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="nav-logo">DO<span class="dot">.</span></span>
+      <p>Available for freelance · Lagos, Nigeria</p>
+      <div class="footer-links">
+        <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.upwork.com/freelancers/~yourprofile" target="_blank" rel="noopener">Upwork</a>
+        <a href="mailto:daniel@example.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
